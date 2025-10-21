@@ -1,7 +1,9 @@
+package Task1;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Perishable extends Product{
+public class Perishable extends Product {
     private LocalDate bestBefore;
 
     public Perishable(int price, String name, LocalDate bestBefore) {
